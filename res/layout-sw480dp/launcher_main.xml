@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ic_background"
+    android:orientation="vertical"
+    android:padding="6.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6.0dip"
+        android:orientation="horizontal" >
+
+        <com.sfzt.zlauncher_wf.ReversalLinearLayout
+            android:id="@+id/btn_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_date"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/clockText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/gettime"
+                android:textColor="@color/Write"
+                android:textSize="54.0px" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8.0dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/weekText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/gettime"
+                    android:textColor="@color/Write"
+                    android:textSize="24.0px" />
+
+                <TextView
+                    android:id="@+id/dataText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/gettime"
+                    android:textColor="@color/Write"
+                    android:textSize="27.0px" />
+            </LinearLayout>
+        </com.sfzt.zlauncher_wf.ReversalLinearLayout>
+
+        <com.sfzt.zlauncher_wf.ReversalFrameLayout
+            android:id="@+id/btn_music"
+            android:layout_width="301.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12.0dip"
+            android:background="@drawable/bg_music" >
+
+            <TextView
+                android:id="@+id/music_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6.0dip"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:paddingLeft="3.0dip"
+                android:paddingRight="3.0dip"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/music"
+                android:textColor="#ffffffff"
+                android:textSize="32.0sp" />
+
+            <TextView
+                android:id="@+id/music_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:paddingLeft="3.0dip"
+                android:paddingRight="3.0dip"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/music"
+                android:textColor="#ffffffff"
+                android:textSize="24.0sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginTop="80.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.sfzt.zlauncher_wf.ReversalImageView
+                    android:id="@+id/music_prev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/music_previous" />
+
+                <com.sfzt.zlauncher_wf.ReversalImageView
+                    android:id="@+id/music_start_pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35.0dip"
+                    android:src="@drawable/music_play" />
+
+                <com.sfzt.zlauncher_wf.ReversalImageView
+                    android:id="@+id/music_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35.0dip"
+                    android:src="@drawable/music_next" />
+            </LinearLayout>
+        </com.sfzt.zlauncher_wf.ReversalFrameLayout>
+
+        <com.sfzt.zlauncher_wf.ReversalTextView
+            android:id="@+id/btn_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12.0dip"
+            android:background="@drawable/bg_setting"
+            android:gravity="bottom|center"
+            android:paddingBottom="5.0dip"
+            android:scaleType="matrix"
+            android:text="@string/settings"
+            android:textColor="@color/Write"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6.0dip"
+        android:orientation="horizontal" >
+
+        <com.sfzt.zlauncher_wf.ReversalTextView
+            android:id="@+id/btn_natigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_navigation"
+            android:gravity="bottom"
+            android:paddingBottom="18.0dip"
+            android:paddingLeft="20.0dip"
+            android:text="@string/navigation"
+            android:textColor="@android:color/black"
+            android:textSize="48.0px" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12.0dip"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.sfzt.zlauncher_wf.ReversalTextView
+                    android:id="@+id/btn_app"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_app"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="10.0dip"
+                    android:text="@string/app"
+                    android:textColor="@color/Write"
+                    android:textSize="28.0px" />
+
+                <com.sfzt.zlauncher_wf.ReversalLinearLayout
+                    android:id="@+id/btn_fm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12.0dip"
+                    android:background="@drawable/bg_fm"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    android:paddingBottom="10.0dip"
+                    android:paddingLeft="10.0dip" >
+
+                    <TextView
+                        android:id="@+id/fm_freq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fm_freg"
+                        android:textColor="@color/Write"
+                        android:textSize="32.0px" 
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fm"
+                        android:textColor="@color/Write"
+                        android:textSize="32.0px" 
+                        android:visibility="gone"/>
+                </com.sfzt.zlauncher_wf.ReversalLinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.sfzt.zlauncher_wf.ReversalTextView
+                    android:id="@+id/btn_dvr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_dvr"
+                    android:gravity="bottom"
+                    android:paddingBottom="10.0dip"
+                    android:paddingLeft="15.0dip"
+                    android:text="@string/dvr"
+                    android:textColor="@color/Write"
+                    android:textSize="28.0px"
+                    android:visibility="gone" />
+
+                <com.sfzt.zlauncher_wf.ReversalTextView
+                    android:id="@+id/btn_ie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_ie"
+                    android:gravity="bottom"
+                    android:paddingBottom="10.0dip"
+                    android:paddingLeft="15.0dip"
+                    android:text="@string/ie"
+                    android:textColor="@color/Write"
+                    android:textSize="28.0px" />
+
+                <com.sfzt.zlauncher_wf.ReversalTextView
+                    android:id="@+id/btn_video_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12.0dip"
+                    android:background="@drawable/bg_video_list"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="5.0dip"
+                    android:text="@string/video_list"
+                    android:textColor="@color/Write"
+                    android:textSize="28.0px" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

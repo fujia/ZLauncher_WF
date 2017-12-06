@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Launcher</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_launcher">Launcher</string>
+    <string name="video">视频</string>
+    <string name="ie">浏览器</string>
+    <string name="wechat">微信</string>
+    <string name="mediabox">多媒体</string>
+    <string name="break_rules_search">违章查询</string>
+    <string name="gps_info">GPS信息</string>
+    <string name="settings">设置</string>
+    <string name="filebrowser">文件管理</string>
+    <string name="baidu_map">百度</string>
+    <string name="gaode_map">高德</string>
+    <string name="kailide_map">凯立德</string>
+    <string name="photo">图片</string>
+    <string name="game">电子狗</string>
+    <string name="game1">游戏</string>
+    <string name="fm">FM发射</string>
+    <string name="game_name">游戏</string>
+    <string name="gettime">获取时间</string>
+    <string name="dvr">行车记录仪</string>
+    <string name="allapp_name">App</string>
+    <string name="sun">星期天</string>
+    <string name="mon">星期一</string>
+    <string name="tue">星期二</string>
+    <string name="wed">星期三</string>
+    <string name="thu">星期四</string>
+    <string name="fri">星期五</string>
+    <string name="sat">星期六</string>
+    <string name="title_activity_app_list">用户应用列表</string>
+    <string name="map_path_set_ok">地图路径已经设置成功!</string>
+    <string name="alarmopen">打开</string>
+    <string name="alarmclose">关闭</string>
+    <string name="set_alarm_state">设置电子狗状态</string>
+    <string name="app_leida">电子狗</string>
+    <string name="dog">电子狗</string>
+    <string name="shan_ling">善领DSA</string>
+    <string name="music">音乐</string>
+    <string name="navigation">导航</string>
+    <string name="app">APP</string>
+    <string name="qq">QQ</string>
+    <string name="googlemaps">地图</string>
+</resources>
